@@ -1,0 +1,19 @@
+.header{
+    margin-top: 200px;
+   
+    padding:30px;
+}
+.btn{
+    background-image: linear-gradient(#00cec9,#55efc4);
+}
+.background{
+    background-image: url("../../../../images/white.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* background:#2ea18a; */
+}
+.image img{
+    width:100%;
+    height: 100%;
+}
