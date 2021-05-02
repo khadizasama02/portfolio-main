@@ -4,7 +4,7 @@ import Typical from "react-typical";
 const AboutMe = () => {
   return (
     <div>
-      <div class="container " style={{marginTop:"150px"}}>
+      <div class="container " style={{marginTop:"150px",marginBottom:"150px"}}>
         <div class="row">
           <div class="col-md-4">
             <h5>About Me</h5>
@@ -37,7 +37,6 @@ const AboutMe = () => {
                 ></div>
               </div>
             </h6>
-          
             <h6>
               javascript
               <div class="progress">
