@@ -8,7 +8,10 @@ const Portfolio = () => {
     return (
         <div class="portfolio-background">
             <div className="container">
-           <h1 className="text-center" style={{marginTop:"100px",marginBottom:"50px"}}>Some Of My Work</h1>
+           <div class="pt-3">
+               <h3 className="text-center" >All Of My Composition</h3>
+               <h1 className="text-center" style={{marginBottom:"50px"}}>Let's See My Work</h1>
+               </div>
            <MenuItem menuItem={menuItem}/> 
         </div>
         </div>

@@ -21,7 +21,7 @@
     display: block;
     width:100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1));
+    background: linear-gradient(to bottom,rgba(246, 185, 59,.5) ,rgba(150,201,61,1));
     z-index:2;
     transition: 0.5s all;
     opacity: 0;
@@ -56,3 +56,11 @@
     list-style: none;
     text-decoration: none;
 }
+.btn-brand{
+    padding:5px;
+    font-size:15px;
+    margin:0;
+    background-image: linear-gradient(#eb2f06,#e55039);
+}
+/* rgba(0,176,155,0.5) */
+/* rgba(150,201,61,1) */

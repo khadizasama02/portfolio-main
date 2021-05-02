@@ -15,13 +15,13 @@ const MenuItem = ({ menuItem }) => {
                   alt="..."
                 />
                 <div className="info">
-                  <div class="card-body">
+                  <div class="card-body" style={{color:"#2d3436"}}>
                     <h5>{item.title}</h5>
                     <p class="card-text">{item.description}</p>
                     <div className="d-flex justify-content-between">
-                    <a href={item.link1}><button class="btn btn-outline">{item.icon1}</button></a>
+                    <a href={item.link1}><button class="btn btn-brand" style={{marginTop:"10px"}}>{item.icon1}</button></a>
                         <a href={item.link2} class="left-side">
-                        <button class="btn btn-outline" style={{margin:"10px"}}>{item.icon2}</button>
+                        <button class="btn  btn-brand" style={{margin:"10px"}}>{item.icon2}</button>
                         </a>
                     </div>
                   </div>

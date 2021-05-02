@@ -2,7 +2,7 @@ import React from "react";
 import './InfoData.css'
 
 const InfoData = ({ info }) => {
-    console.log(info);
+   
   return (
     <div class="col-md-4">
       <div class="card mb-5 box">
