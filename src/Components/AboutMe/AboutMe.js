@@ -1,9 +1,10 @@
 import React from "react";
 import Typical from "react-typical";
+import './AboutMe.css'
 
 const AboutMe = () => {
   return (
-    <div>
+    <div class="font-style">
       <div class="container " style={{marginTop:"150px",marginBottom:"150px"}}>
         <div class="row">
           <div class="col-md-4">

@@ -6,7 +6,7 @@ import { FaSchool } from "react-icons/fa";
 
 const Resume = () => {
     return (
-        <div class="resume-background">
+        <div class="resume-background font-style">
           <div class="resume-header">
           <h6 class="text-center pt-5">RESUME</h6>
            <h3 class="text-center">Education & Skills</h3> 

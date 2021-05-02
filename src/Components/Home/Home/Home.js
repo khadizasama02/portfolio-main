@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutMe from '../../AboutMe/AboutMe';
+import Portfolio from '../../Portfolios/Portfolio';
 import Resume from '../../Resume/Resume';
 import ResumeMore from '../../ResumeMore/ResumeMore';
 import Header from '../Header/Header/Header';
@@ -20,6 +21,9 @@ const Home = () => {
               </div>
               <div>
                   <ResumeMore/>
+              </div>
+              <div>
+                  <Portfolio/>
               </div>
 
         </div>

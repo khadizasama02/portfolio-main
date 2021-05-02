@@ -22,7 +22,7 @@ const resumeData = [{
 const ResumeMore = () => {
     return (
         <div >
-           <div className="container">
+           <div className="container font-style">
                <h4 className="text-center" style={{marginTop:"50px"}}>Know More</h4>
            <div class="row" style={{marginTop:"50px"}}>
             {

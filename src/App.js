@@ -18,6 +18,10 @@ function App() {
           <Home/>
           
         </Route>
+        <Route exact path="/">
+          <Home/>
+          
+        </Route>
       </Switch>
     </Router>
   );
