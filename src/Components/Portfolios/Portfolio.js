@@ -6,7 +6,7 @@ import './Portfolio.css'
 const Portfolio = () => {
     const [menuItem,setMenuItem] = useState(portfolio);
     return (
-        <div class="portfolio-background">
+        <div class="portfolio-background" id="portfolio">
             <div className="container">
            <div class="pt-3">
                <h3 className="text-center" >All Of My Composition</h3>

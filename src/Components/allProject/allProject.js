@@ -7,7 +7,7 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/Organic-screenshot.png",
     title:'Organic Mart',
-    description:'This is a vanila javascript project,where user can find any type of food item on the search bar.the usser will get all the food relavant to the search result'
+    description:'This is a React JS project,where authenticated user can find any type of grocery item and the user can place order.After placing order user can check out and see their orders '
 },
 {
     id: 2,

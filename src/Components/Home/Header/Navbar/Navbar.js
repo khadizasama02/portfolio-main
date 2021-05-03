@@ -7,9 +7,9 @@ const Navbar = () => {
       <div class="container">
         <nav class="navbar navbar-light  ">
          
-           <h1>sama</h1>
+           {/* <h1>sama</h1> */}
           
-          <div>
+          <div style={{marginLeft: "1100px"}}>
             <div class="container-fluid">
               <button
                 class="navbar-toggler"
@@ -30,23 +30,34 @@ const Navbar = () => {
             >
               <ul class="navbar-nav mb-2 me-auto mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <a class="nav-link active" aria-current="page" href="#header">
                     Home
                   </a>
                 </li>
+                
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Portfolio
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#aboutMe">
                     About me
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#resume">
+                    Resume
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">
+                    Portfolio
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">
                     Blogs
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactMe">
+                    Contact Me
                   </a>
                 </li>
                

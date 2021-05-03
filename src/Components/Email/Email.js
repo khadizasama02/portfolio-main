@@ -24,7 +24,7 @@ export default function ContactUs() {
     e.target.reset();
   }
   return (
-    <div class="contact-background">
+    <div class="contact-background" id="contactMe">
       <div className="container">
         <h1 class="text-center">Already Impressed!!</h1>
         <h3 class="text-center">Contact Me</h3>

@@ -12,25 +12,27 @@ AOS.init();
 
 const Header = () => {
   return (
-    <section class="background">
+    <section class="background" id="header">
       <Navbar />
       <div class="container">
         <div class="row">
-          <div class="col-md 6 header">
-            <h3>
-              Welcome
-            </h3>
-            <h4>
-              I am khadiza Morioum Sama
-            </h4>
-            <h4>
+          <div class="col-md 6 header" style={{color: '#303952'}}>
+            <h2>
+              Hello
+            </h2>
+            <h2>it's me</h2>
+            <h1 style={{fontSize:"45px"}}>
+               
+               khadiza Morioum Sama
+            </h1>
+            <h2>
               I am a {' '} 
               <Typical
               loop={Infinity}
               wrapper="b"
               steps={['Web Developer', 1000, 'Web Designer', 1000]}
               />
-            </h4>
+            </h2>
            <div class="d-flex">
            <a href="/publicImage/Resume.pdf" download>
               <button class="btn btn-outline"><FaFileDownload/>My CV</button>

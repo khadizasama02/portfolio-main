@@ -20,7 +20,7 @@ const blogData = [{
 
 const Blog = () => {
     return (
-        <div>
+        <div id="blog">
            <div className="container font-style">
                <h5 className="text-center" style={{marginTop:"50px"}}>You Can Read</h5>
                <h1 className="text-center">Latest News & Blog</h1>
