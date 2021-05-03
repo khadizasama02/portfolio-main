@@ -7,7 +7,7 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/Organic-screenshot.png",
     title:'Organic Mart',
-    description:'This is a React JS project,where authenticated user can find any type of grocery item and the user can place order.After placing order user can check out and see their orders '
+    description:'This is a React JS project,where authenticated user can find any type of grocery item and the user can place order.After placing order user can check out and see their orders'
 },
 {
     id: 2,
@@ -18,7 +18,7 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/wedco.png",
     title:'WedCo',
-    description:'This is a vanila javascript project,where user can find any type of food item on the search bar.the usser will get all the food relavant to the search result'
+    description:'This is a React JS project, a single page service-based web application,where authenticated user can place their appropriate service and the order will be placed in database.'
 },
 {
     id: 3,
@@ -29,7 +29,7 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/ride.png",
     title: 'Ride It',
-    description:'This is a vanila javascript project,where user can find any type of food item on the search bar.the usser will get all the food relavant to the search result'
+    description:'This is a React JS project, a single page ride-sharing web application,where authenticated user can take a ride to their specific destination using this website.'
 },
 
 {
@@ -41,7 +41,7 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/fancy.png",
     title: 'Fancy Slider',
-    description:'This is a vanila javascript project,where user can find any type of food item on the search bar.the usser will get all the food relavant to the search result'
+    description:'This is a vanila javascript project,where user can find any type of nature image by clicking the search button and the user can create a slider from the search result'
 },
 {
     id: 5,
@@ -52,7 +52,7 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/hungry.png",
     title: 'Hungry Monster',
-    description:'This is a vanila javascript project,where user can find any type of food item on the search bar.the usser will get all the food relavant to the search result'
+    description:'This is a vanila javascript project,where user can find any type of food item by clicking the search button.the usser will get all the food relavant to the search result'
 },
 {
     id: 6,
@@ -63,9 +63,10 @@ const allProject=[ {
     icon2:"LIVE SITE",
     image:"/publicImage/penguine.png",
     title: 'Penguine Fashion',
-    description:'This is a vanila javascript project,where user can find any type of food item on the search bar.the usser will get all the food relavant to the search result'
+    description:'This is a simple HTML bootstrap project,where user will see some product and their prices.this is a static website'
 },
 ]
+// There are admin panel where an admin can make new admin,add service,can see all the user orders and a user panel where a user can add review and can see his/her orders
 
 
 

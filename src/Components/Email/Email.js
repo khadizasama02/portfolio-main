@@ -26,8 +26,10 @@ export default function ContactUs() {
   return (
     <div class="contact-background" id="contactMe">
       <div className="container">
-        <h1 class="text-center">Already Impressed!!</h1>
+        <div className="p-3" >
+        <h1 class="text-center" ><span >Already Impressed!!</span></h1>
         <h3 class="text-center">Contact Me</h3>
+        </div>
         <div className="row">
           <div class="col-md-6 ">
               <div style={{marginTop:"150px"}} class="text-center"> 
@@ -89,6 +91,9 @@ export default function ContactUs() {
             </form>
           </div>
         </div>
+        <footer>
+         <h6  class="text-center p-3" > <small>© 2021 Copyright.All rights reserved.</small></h6>
+        </footer>
       </div>
     </div>
   );

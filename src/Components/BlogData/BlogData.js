@@ -3,7 +3,7 @@ import React from 'react';
 const BlogData = ({blog}) => {
     return (
         <div class="col-md-4">
-        <div class="card mb-5 box">
+        <div class="card mb-5 box" style={{height:"85%"}}>
           <img src={blog.icon} class="card-img-top " style={{width:"200px",marginLeft:"auto",marginRight:"auto"}} alt="..." />
           <div class="card-body text-center">
               <h3 class="card-title">{blog.title}</h3>
